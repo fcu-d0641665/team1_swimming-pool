@@ -18,7 +18,7 @@ public class DiscountTest {
 
 		@Test
 		public void testAgeLessThan() throws Throwable {
-			Identity identity = new Identity(2, false, true);
+			Identity identity = new Identity(4, false, true);
 			try {
 				new Discount(identity, dateTime);
 			} catch (Throwable exception) {
